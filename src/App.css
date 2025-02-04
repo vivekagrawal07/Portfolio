@@ -335,6 +335,7 @@ height:170px;
   }
 
   .img-1 {
+    justify-content: center;
     margin: 10px;
     height: 180px;
     width: 180px;
@@ -395,6 +396,7 @@ height:170px;
   }
 
   .img-1 {
+    justify-content: center;
     margin: 15px;
     height: 200px;
     width: 200px;
