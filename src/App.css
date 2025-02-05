@@ -211,7 +211,7 @@
 }
 
 .highlight {
-  color: maroon;
+  color: red;
   font-weight: bold;
 }
 
@@ -237,7 +237,7 @@
 }
 
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .home-container {
     width:1470px;
   }
