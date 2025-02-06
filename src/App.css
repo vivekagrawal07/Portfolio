@@ -341,4 +341,11 @@
   .hero-container {
     padding: 20px;
   }
+    .nav-links {
+    gap: 10px;
+    padding-left:5px;
+  }
+  .nav-links li {
+    padding-left:10px;
+  }
 }
