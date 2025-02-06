@@ -1,6 +1,7 @@
 * {
   max-width: 100%;
   box-sizing: border-box;
+    resize: none;
 }
 .home-container {
   width: 100%;
