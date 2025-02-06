@@ -275,6 +275,9 @@
 }
 
 @media (max-width: 768px) {
+   .home-container a{
+    margin-left:13px;
+  }
  .skill-name h3{
     font-size:10px;
   }
