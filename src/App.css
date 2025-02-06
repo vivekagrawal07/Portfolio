@@ -117,42 +117,6 @@
   padding: 20px;
   text-align: center;
 }
-
-.skill-image {
-  object-fit: contain;
-  height: 30px;
-  border-radius: 20px;
-}
-
-.navbar {
-  padding: 10px 15px;
-  top: 0;
-  display: flex;
-  box-shadow: 0 1px 1px;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #1a1a1a;
-  width: 100%;
-  position: sticky;
-  z-index: 100;
-}
-
-.logo {
-  font-size: 1.5em;
-  font-weight: bold;
-}
-
-.nav-links {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-  padding-left: 20px;
-}
-
-.nav-links li {
-  cursor: pointer;
-  padding-left: 20px;
-}
 .hero-section {
   box-shadow: 0px 4px 10px rgba(240, 239, 239, 0.5);
   display: flex;
@@ -311,7 +275,12 @@
 }
 
 @media (max-width: 768px) {
-  
+   .skill-name font{
+    font-size:5px;
+  }
+  .skill-card {
+    padding:5px;
+  }
   .hero-text h1 {
     font-size: 20px;
   }
