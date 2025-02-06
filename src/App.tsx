@@ -122,8 +122,8 @@ Resume
         {skills.map((skill, index) => (
           <Grid item key={index} xs={6} sm={4} md={3} lg={2}>
             <Card elevation={3} className="skill-card animate__animated animate__zoomInUp">
-            <Typography variant="h6" className="skill-name ">
-                {skill.name}
+            <Typography  className="skill-name ">
+               <h3> {skill.name}</h3>
               </Typography>
             </Card>
           </Grid>
