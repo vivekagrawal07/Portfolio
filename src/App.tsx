@@ -88,7 +88,7 @@ Resume
 </div>
 </p>
 </div>
-<img  className='img-1 animate__animated animate__backInRight' src="src\assets\me.jpeg" alt="Vivek Agrawal" />
+<img  className='img-1 animate__animated animate__backInRight' src="src/assets/me.jpeg" alt="Vivek Agrawal" />
 </section>
 <Box className="tabs-container">
        <TabContext  value={value} >
@@ -176,7 +176,7 @@ Resume
         </div>
   {/* Right Side Images */}
   <div className="hero-images">
-           <img src="src/assets/Agresita-1.png" alt="Tablet preview" className="tablet-image" />
+           <img src="/assets/Agresita-1.png" alt="Tablet preview" className="tablet-image" />
         </div>
       
       </div>
