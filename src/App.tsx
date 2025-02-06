@@ -65,16 +65,6 @@ const App = () => {
   ];
   return(
   <div className="home-container" id="1">
-      <div className="navbar">
-        <div className="logo"></div>
-        <nav>
-  <ul className="nav-links">
-    <li><a style={{color:"blue"}} href="#1" className="nav-link">HOME</a></li>
-    <li><a style={{color:"blue"}} href="#2" className="nav-link">PROJECTS</a></li>
-    <li><a style={{color:"blue"}} href="https://drive.google.com/file/d/1FycltO0WhhPHYEc7ahHId5T6GaSGjqNL/view?usp=drive_link" className="nav-link">RESUME</a></li>
-  </ul>
-</nav>
-        </div>
 <section className="me" >
 <div className='me-1'>
 <h1 className="animate__animated animate__fadeInDownBig" >Vivek Agrawal </h1>
