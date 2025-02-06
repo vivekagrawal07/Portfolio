@@ -176,7 +176,7 @@ Resume
         </div>
   {/* Right Side Images */}
   <div className="hero-images">
-           <img src="src\assets\Agresita-1.png" alt="Tablet preview" className="tablet-image" />
+           <img src="src/assets/Agresita-1.png" alt="Tablet preview" className="tablet-image" />
         </div>
       
       </div>
