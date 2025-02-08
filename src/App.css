@@ -3,6 +3,9 @@
   box-sizing: border-box;
 /*     resize: none; */
 }
+.tech{
+  color:blue;
+}
 .home-container {
   width: 100%;
   background-color: #121212;
