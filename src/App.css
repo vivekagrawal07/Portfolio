@@ -274,7 +274,7 @@
   }
   
 .hero-section {
-  height: 45vh; 
+  height:auto; 
   margin-left:50px;
   margin-right: 50px;/* Center vertically *//* Light background */
 }
@@ -331,6 +331,9 @@
 }
   .hero-container {
     padding: 20px;
+  }
+  .hero-section a{
+    margin-top:10px
   }
 }
 @media (max-width:1000px) {
