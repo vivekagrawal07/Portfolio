@@ -332,8 +332,8 @@
   .hero-container {
     padding: 20px;
   }
-  .hero-section a{
-    margin-top:10px
+.hero-section a{
+    margin-bottom:10px;
   }
 }
 @media (max-width:1000px) {
