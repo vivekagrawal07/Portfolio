@@ -155,9 +155,9 @@ Resume
       </Box>
       {/* projects */}
       <h1 className="me-1 animate__animated animate__fadeInLeftBig" id="2" >Projects </h1>
-      <section className="hero-section">
+      <section className="hero-section" style={{marginTop:10}}>
         
-      <div className="hero-container">
+      <div className="hero-container" >
         
         
 
@@ -169,6 +169,13 @@ Resume
           Agresita is our college’s flagship annual event, bringing together students,
            faculty, and industry experts for a vibrant celebration of talent, 
            innovation, and culture.
+           <br/> <br/>
+           <span className="highlight"> Tech Stack:</span> <span className="tech">
+✔ React + Vite &nbsp; &nbsp;
+✔ Tailwind CSS   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+✔ JavaScript/TypeScript&nbsp;&nbsp;
+✔ GitHub&nbsp;&nbsp; ✔ Vite
+</span>
           </p>
           <a href="https://agresita-vivek-agrawal-projects.vercel.app/" target="_blank" className="hero-button">
             visit →
@@ -176,7 +183,43 @@ Resume
         </div>
   {/* Right Side Images */}
   <div className="hero-images">
-           <img src="/Agresita-1.png" alt="Tablet preview" className="tablet-image" />
+          <img src="/Agresita-1.png" alt="Tablet preview" className="tablet-image" />
+         
+        </div>
+      
+      </div>
+    </section>
+    <section className="hero-section" style={{marginTop:10}}>
+        
+      <div className="hero-container">
+        
+        
+
+        {/* Left Content */}
+        <div className="hero-text">
+          <span className="badge">Web</span>
+          <h1>Sanskriti Finance</h1>
+          <p>
+          Sanskriti Finance offers a complete suite of financial services,
+           including loans,Insurance,Management, and business financial solutions.
+           The company is committed to provide expert guidance and
+            solutions for individuals and businesses.
+           <br/> <br/>
+           <span className="highlight"> Tech Stack:</span> <span className="tech">
+✔ Wordpress &nbsp; &nbsp;
+✔ Elementor   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+✔ Hostinger &nbsp;&nbsp; ✔ Sterling
+
+</span>
+          </p>
+          <a href="https://sanskritifinanceservices.com/" target="_blank" className="hero-button">
+            visit →
+          </a>
+        </div>
+  {/* Right Side Images */}
+  <div className="hero-images">
+          <img src="" alt="Tablet preview" className="tablet-image" />
+         
         </div>
       
       </div>
