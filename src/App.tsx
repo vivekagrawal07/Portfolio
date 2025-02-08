@@ -218,7 +218,7 @@ Resume
         </div>
   {/* Right Side Images */}
   <div className="hero-images">
-          <img src="" alt="Tablet preview" className="tablet-image" />
+          <img src="/sans.png" alt="Tablet preview" className="tablet-image" />
          
         </div>
       
