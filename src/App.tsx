@@ -8,6 +8,7 @@ import DownloadIcon from '@mui/icons-material/Download';
 import { CgInstagram } from 'react-icons/cg'
 import { BsLinkedin } from 'react-icons/bs'
 import { BsGithub } from 'react-icons/bs'
+import { FiMail } from "react-icons/fi";
 import 'animate.css';
 import { Container, Typography, Grid, Card } from "@mui/material";
 const App = () => {
@@ -74,6 +75,7 @@ and user-centric applications. With expertise in both frontend and backend devel
 I leverage modern technologies to create seamless digital experiences that enhance user
 engagement and drive business success.
 <div  style={{margin:"20px"}}>
+<a href='mailto:vivek.agrawal2807@gmail.com'> <FiMail/> </a>
 <a href='https://www.instagram.com/vivekagrawal85?igsh=MXM3a28yZGw4cGFlNg=='><CgInstagram/></a>
 <a href='https://www.linkedin.com/in/vivek-agrawal-7689b52b3/'> <BsLinkedin/> </a>
 <a href='https://github.com/vivekagrawal07'> <BsGithub/> </a>
