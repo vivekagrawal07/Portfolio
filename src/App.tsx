@@ -56,14 +56,14 @@ const App = () => {
       description: "College's flagship annual event platform",
       tech: ["HTML/CSS", "Bootstrap","JavaScript"],
       link: "https://agresita-vivek-agrawal-projects.vercel.app/",
-      image: "public/agresita-1.png"
+      image: "/agresita-1.png"
     },
     {
       title: "Sanskriti Finance",
       description: "A comprehensive financial services platform offering loans, insurance, and business solutions with expert guidance for individuals and businesses.",
       tech: ["Wordpress", "Elementor", "Hostinger"],
       link: "https://sanskritifinanceservices.com/",
-      image: "public/sans.png"
+      image: "/sans.png"
     }
   ];
 
