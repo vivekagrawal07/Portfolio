@@ -56,14 +56,14 @@ const App = () => {
       description: "College's flagship annual event platform",
       tech: ["HTML/CSS", "Bootstrap","JavaScript"],
       link: "https://agresita-vivek-agrawal-projects.vercel.app/",
-      image: "Agresita-1.png"
+      image: "public/agresita-1.png"
     },
     {
       title: "Sanskriti Finance",
       description: "A comprehensive financial services platform offering loans, insurance, and business solutions with expert guidance for individuals and businesses.",
       tech: ["Wordpress", "Elementor", "Hostinger"],
       link: "https://sanskritifinanceservices.com/",
-      image: "/sans.png"
+      image: "public/sans.png"
     }
   ];
 
@@ -73,7 +73,7 @@ const App = () => {
       institution: "B.Tech in Computer Science And Engineering",
       years: "2021 - 2025",
       rating: 7.8,
-    },
+      },
     {
       title: "St. Xavier's High School Bharni Bilapur",
       institution: "Intermediate in Science (PCM)",
@@ -172,8 +172,8 @@ const App = () => {
                       <span className="skill-icon">{skill.icon}</span>
                       <h6>{skill.name}</h6>
                     </motion.div>
-                  ))}
-                </div>
+      ))}
+    </div>
               </motion.div>
             ))}
           </motion.div>
@@ -219,7 +219,7 @@ const App = () => {
                   <p className="publication-year">
                     <span>Published in {pub.years}</span>
                   </p>
-                </div>
+          </div>
                 {pub.src && (
                   <a 
                     href={pub.src} 
@@ -363,7 +363,7 @@ const App = () => {
                 >
                   Full Stack Developer
                 </motion.h2>
-              </div>
+        </div>
               <motion.p 
                 className="hero-description"
                 variants={itemVariants}
@@ -400,7 +400,7 @@ const App = () => {
               className="hero-image"
               variants={itemVariants}
             >
-              <img src="/me.jpeg" alt="Vivek Agrawal" />
+              <img src="public/me.jpeg" alt="Vivek Agrawal" />
             </motion.div>
           </motion.div>
         </section>
@@ -442,8 +442,8 @@ const App = () => {
                 {renderTabContent()}
               </motion.div>
             </div>
-          </div>
-        </section>
+      </div>
+    </section>
 
         <section id="projects" className="section">
           <div className="section-content">
@@ -478,7 +478,7 @@ const App = () => {
                       {project.tech.map((tech, i) => (
                         <span key={i} className="tech-badge">{tech}</span>
                       ))}
-                    </div>
+        </div>
                     <motion.a
                       href={project.link}
                       className="project-link"
@@ -486,12 +486,12 @@ const App = () => {
                     >
                       View Project →
                     </motion.a>
-                  </div>
+        </div>
                 </motion.div>
               ))}
             </motion.div>
-          </div>
-        </section>
+      </div>
+    </section>
       </main>
     </div>
   );
