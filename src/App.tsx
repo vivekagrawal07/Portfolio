@@ -56,7 +56,7 @@ const App = () => {
       description: "College's flagship annual event platform",
       tech: ["HTML/CSS", "Bootstrap","JavaScript"],
       link: "https://agresita-vivek-agrawal-projects.vercel.app/",
-      image: "/agresita-1.png"
+      image: "/Agresita-1.png"
     },
     {
       title: "Sanskriti Finance",
