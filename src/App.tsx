@@ -326,7 +326,7 @@ const App = () => {
               variant="contained"
               className="resume-btn"
               startIcon={<DownloadIcon />}
-              href="https://drive.google.com/file/d/1FycltO0WhhPHYEc7ahHId5T6GaSGjqNL/view"
+              href="https://drive.google.com/file/d/1qMXBPr07pTe_eUIYvHkvIVCNP5p_GGMQ/view?usp=drivesdk"
               target="_blank"
               onClick={closeMenu}
             >
